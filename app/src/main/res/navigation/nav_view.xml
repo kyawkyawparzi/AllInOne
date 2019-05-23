@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_view"
+    app:startDestination="@id/fragmentRecycler">
+
+    <fragment
+        android:id="@+id/fragmentRecycler"
+        android:name="pyaepyae.allinone.allinone.FragmentRecycler"
+        android:label="fragment_recycler"
+        tools:layout="@layout/fragment_recycler" />
+    <fragment
+        android:id="@+id/fragmentViewPager"
+        android:name="pyaepyae.allinone.allinone.FragmentViewPager"
+        android:label="fragment_fragment_view_pager"
+        tools:layout="@layout/fragment_fragment_view_pager" />
+    <fragment
+        android:id="@+id/fragmentViewPagerOne"
+        android:name="pyaepyae.allinone.allinone.FragmentViewPagerOne"
+        android:label="fragment_fragment_view_pager_one"
+        tools:layout="@layout/fragment_fragment_view_pager_one" />
+    <fragment
+        android:id="@+id/fragmentViewPagerTwo"
+        android:name="pyaepyae.allinone.allinone.FragmentViewPagerTwo"
+        android:label="fragment_fragment_view_pager_two"
+        tools:layout="@layout/fragment_fragment_view_pager_two" />
+    <fragment
+        android:id="@+id/viewPagerHolder"
+        android:name="pyaepyae.allinone.allinone.ViewPagerHolder"
+        android:label="fragment_view_pager_holder"
+        tools:layout="@layout/fragment_view_pager_holder" />
+    <fragment
+        android:id="@+id/fragmentSend"
+        android:name="pyaepyae.allinone.allinone.FragmentSend"
+        android:label="fragment_fragment_send"
+        tools:layout="@layout/fragment_fragment_send" />
+    <fragment
+        android:id="@+id/fragmentShare"
+        android:name="pyaepyae.allinone.allinone.FragmentShare"
+        android:label="fragment_fragment_share"
+        tools:layout="@layout/fragment_fragment_share" />
+    <fragment
+        android:id="@+id/fragmentRepair"
+        android:name="pyaepyae.allinone.allinone.FragmentRepair"
+        android:label="fragment_fragment_repair"
+        tools:layout="@layout/fragment_fragment_repair" />
+</navigation>
